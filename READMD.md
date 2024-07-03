@@ -14,3 +14,10 @@ npm run dev   ... build index.html and rebuild after files change
 
 host `index.html` by using VSCode extension - [LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 _ps. auto reload doesn't work_
+
+## Test in MacOS Mail
+
+1. Open http://127.0.0.1:5500/ in Safari
+2. CMD + i
+
+_\*Alternative: https://stackoverflow.com/questions/48214386/insert-html-into-email-in-apple-mail_

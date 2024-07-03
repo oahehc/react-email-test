@@ -3,7 +3,7 @@ import { join } from "path";
 import { render } from "@react-email/components";
 import { Email } from "./email";
 
-const emailHtml = render(<Email url="https://example.com" />);
+const emailHtml = render(<Email url="https://react.email/" />);
 
 async function generateHtml(htmlContent: string) {
   const outputPath = join(process.cwd(), "dist", "index.html");
