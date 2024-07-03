@@ -1,0 +1,30 @@
+{
+  "name": "react-email",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
+    "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --watch",
+    "clean": "rm -rf dist",
+    "preexport": "npm run clean && npm run build",
+    "export": "node dist/index.js"
+  },
+  "dependencies": {
+    "@react-email/components": "*",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "@types/react": "^18.3.3",
+    "tsup": "6.2.3",
+    "typescript": "4.8.3"
+  }
+}
