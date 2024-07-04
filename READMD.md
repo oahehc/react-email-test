@@ -12,8 +12,7 @@ npm install
 npm run dev   ... build index.html and rebuild after files change
 ```
 
-host `index.html` by using VSCode extension - [LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-_ps. auto reload doesn't work_
+Preview `index.html` by using VSCode extension - [LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 ## Test in MacOS Mail
 
