@@ -34,19 +34,21 @@ export const Email: React.FC<Readonly<EmailProps>> = ({ url }) => {
           }}
         >
           <Section style={{ marginBottom: "24px" }}>
-            <Column style={{ width: "50%" }}>
-              <Img
-                src="https://react.dev/apple-touch-icon.png"
-                alt="react.js"
-                width="32"
-                height="32"
-              />
-            </Column>
-            <Column
-              style={{ width: "50%", textAlign: "right", fontSize: "16px" }}
-            >
-              React+Email
-            </Column>
+            <Row>
+              <Column style={{ width: "50%" }}>
+                <Img
+                  src="https://react.dev/apple-touch-icon.png"
+                  alt="react.js"
+                  width="32"
+                  height="32"
+                />
+              </Column>
+              <Column
+                style={{ width: "50%", textAlign: "right", fontSize: "16px" }}
+              >
+                React+Email
+              </Column>
+            </Row>
           </Section>
           <Hr />
           <Section>
